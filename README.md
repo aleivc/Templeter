@@ -17,13 +17,16 @@
 <head>
     <meta charset="UTF-8">
     <title>common 共通</title>
+    <!-- 使用 tag="common" 标记这是共通页面 -->
     <script src="js/Templeter.js" tag="common"></script>
 </head>
 <body>
+    <!-- 自定义标签(为了和原生标签区分要包含中划线) -->
     <first-ele>
         <span>我是第一个自定义标签</span>
     </first-ele>
     <hr>
+    <!-- 自定义标签(为了和原生标签区分要包含中划线) -->
     <second-ele>
         <span>我是第二个自定义标签</span>
     </second-ele>
@@ -39,9 +42,11 @@
 <head>
     <meta charset="UTF-8">
     <title>test1</title>
+    <!-- 引用文件 -->
     <script src="js/Templeter.js"></script>
 </head>
 <body>
+    <!-- 使用标签 -->
     <first-ele></first-ele>
 </body>
 </html>
@@ -54,9 +59,11 @@
 <head>
     <meta charset="UTF-8">
     <title>test2</title>
+    <!-- 引用文件 -->
     <script src="js/Templeter.js"></script>
 </head>
 <body>
+    <!-- 使用标签 -->
     <second-ele></second-ele>
 </body>
 </html>
